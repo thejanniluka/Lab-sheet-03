@@ -12,7 +12,7 @@
         <activity android:name=".DisplayMessageActivity"
             android:parentActivityName=".MainActivity">
 
-            //if api lower 15
+            <!--If api lower than 15-->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity">
             </meta-data>
